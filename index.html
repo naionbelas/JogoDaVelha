@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura a viewport para responsividade -->
+    <title>Jogo da Velha</title> <!-- Título da página -->
+    <style>
+        #game-board {
+            border-collapse: collapse; /* Remove espaços entre as bordas das células da tabela */
+        }
+        #game-board td {
+            border: 1px solid #000; /* Define a borda das células como preta */
+            width: 50px; /* Largura das células */
+            height: 50px; /* Altura das células */
+            text-align: center; /* Centraliza o texto nas células */
+            font-size: 24px; /* Tamanho da fonte */
+            cursor: pointer; /* Altera o cursor para indicar que a célula é clicável */
+        }
+        #move-log {
+            margin-top: 20px; /* Espaçamento acima do log de movimentos */
+        }
+        #score-board {
+            margin-bottom: 20px; /* Espaçamento abaixo do marcador de pontuação */
+        }
+    </style>
+</head>
+<body>
+    <h1>Jogo da Velha</h1> <!-- Título principal do jogo -->
+
+    <!-- Marcador de Pontuação -->
+    <div id="score-board">
+        <p>Jogador X: <span id="score-x">0</span> | Jogador O: <span id="score-o">0</span> | Empates: <span id="score-draw">0</span></p>
+        <!-- Exibe a pontuação atual dos jogadores X, O e o número de empates -->
+    </div>
+
+    <!-- Mensagem de Fim de Jogo -->
+    <div id="game-message" style="display: none;"></div>
+    <!-- Inicialmente escondida, será usada para mostrar mensagens de fim de jogo -->
+
+    <!-- Botão de Reiniciar -->
+    <button id="restart-btn" style="display: none;" onclick="resetGame()">Reiniciar</button>
+    <!-- Botão que permite reiniciar o jogo, inicialmente escondido -->
+
+    <!-- Tabuleiro -->
+    <table id="game-board">
+        <tr>
+            <td id="cell-0"></td> <!-- Célula 0 do tabuleiro -->
+            <td id="cell-1"></td> <!-- Célula 1 do tabuleiro -->
+            <td id="cell-2"></td> <!-- Célula 2 do tabuleiro -->
+        </tr>
+        <tr>
+            <td id="cell-3"></td> <!-- Célula 3 do tabuleiro -->
+            <td id="cell-4"></td> <!-- Célula 4 do tabuleiro -->
+            <td id="cell-5"></td> <!-- Célula 5 do tabuleiro -->
+        </tr>
+        <tr>
+            <td id="cell-6"></td> <!-- Célula 6 do tabuleiro -->
+            <td id="cell-7"></td> <!-- Célula 7 do tabuleiro -->
+            <td id="cell-8"></td> <!-- Célula 8 do tabuleiro -->
+        </tr>
+    </table>
+
+    <div id="move-log"></div> <!-- Log para registrar os movimentos feitos durante o jogo -->
+
+    <script src="script.js"></script> <!-- Link para o arquivo JavaScript que controla a lógica do jogo -->
+</body>
+</html>
