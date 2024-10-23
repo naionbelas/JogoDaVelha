@@ -31,7 +31,7 @@ Este projeto implementa o jogo da velha utilizando o algoritmo Minimax para perm
 
 1. **Clone o repositório**:
    ```bash
-   git clone https://github.com/naionbelas/jogo_velha.git
+   git clone https://github.com/naionbelas/jogo-da-velha.git
    ```
 
 2. **Navegue até a pasta do projeto**:
