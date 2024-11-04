@@ -52,7 +52,14 @@ https://naionbelas.github.io/jogo-da-velha/
 
 Sinta-se à vontade para fazer sugestões, melhorias ou relatórios de problemas. Contribuições são sempre bem-vindas!
 
+## Contato
 
+  Para dúvidas ou sugestões, entre em contato:
+  E-mail: naionbelas@gmail.com
+
+## Licença
+
+  Este projeto é de uso educacional e pode ser modificado e redistribuído conforme necessário para fins de aprendizado. Não se esqueça de dar os devidos créditos ao autor.
 
 ## Agradecimentos
 
