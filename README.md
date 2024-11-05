@@ -2,8 +2,12 @@
 
 Este projeto é uma implementação do jogo da velha (Tic-Tac-Toe) utilizando JavaScript, desenvolvido como parte da disciplina de Inteligência Artificial do curso de Análise e Desenvolvimento de Sistemas da FATEC de Santana de Parnaína.
 
-### Aluno: 
-Naion Belas Juvenal
+## Autor
+    Aluno: Naion Belas Juvenal
+    Curso: Análise e Desenvolvimento de Sistemas
+    Disciplina: Inteligência Artificial - (Aula 10 - Jogos)
+    Instituição: FATEC de Santana de Parnaíba
+    E-mail: naionbelas@gmail.com
 
 ## Descrição do Projeto
 
